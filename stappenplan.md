@@ -6,6 +6,11 @@ Installeer Git en maak een GitHub-repository aan.
 Installeer VS Code en stel het in voor Python-ontwikkeling.
 Maak een virtuele omgeving aan en installeer Flask.
 Initialiseer een basis Flask-applicatie.
+
+
+Tot hier klaar
+
+
 2. Database Setup
 Beschrijving: Stel de database in voor het opslaan van werknemersgegevens en planningen.
 Tools: SQLite (voor een eenvoudige, ingebouwde database), SQLAlchemy (ORM voor Flask).
