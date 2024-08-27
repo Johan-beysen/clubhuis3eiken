@@ -1,0 +1,57 @@
+planningtool : 
+    Werkblad = weekoverzicht - bovenaan dagen - links overzicht werknemers
+    
+    werknemer : Naam, voornaam, telnr, mailadres, adres, postcode, plaats, functie, categorie
+        Postcode & plaats : ik heb een apparte database met alle postcodes en plaatsen in belgie - als een postcode ingegeven wordt moet de gemeente automatisch ingevuld worden, bij meerdere gemeentes (sommige gemeentes hebben zelfde postcode- moet keuze geboden worden)
+        Funcktie : Kok, Hulpkok, afwasser, poetsvrouw, Bar, Zaal (inzetbaar als meerdere functies mogelijk)
+        Categorie : Management, vaste, flex, jobstudent - per categrie moeten er regels zoals minimum en maximum aantal uur per week e.d. kunnen opgegeven worden die nadien ook gebruikt worden in de planningtool
+
+
+Wat moet er in zitten:
+Mogelijk om werknemers toe te voegen
+Werknemers moeten via een kalender kunnen doorgeven wanneer ze beschikbaar zijn (dagen en uren)
+Mogelijkheid om voor werknemers vaste aanwezigheden op te geven 
+het werkblad (daar waar de planning opgemaakt wordt) moet een weekkalender zijn, met bovenaan de dagen, links de medewerkers met
+op de dagen dat hij zich als beschikbaar heeft gezet een gearceerde activiteit (nog niet ingepland) die met een klick kan ingepland en aangepast worden. Bedoeling is dat de planner kan zien, ok die dag, wie is er beschikbaar, ah we gaan die en die inplannen, die van dat uur tot dat uur en die van dat tot dat uur. enz.....
+
+
+voorgestelde routemap:
+
+Werkblad Layout: Weekoverzicht met dagen bovenaan en werknemers links.
+Werknemer Details: Naam, voornaam, telnr, mailadres, adres, postcode, plaats, functie, categorie.
+Postcode & Plaats: Automatische invulling van gemeente op basis van postcode.
+Functie & Categorie: Verschillende functies en categorieën met specifieke regels.
+Functionaliteiten: Toevoegen van werknemers, beschikbaarheid via kalender, vaste aanwezigheden, weekkalender voor planning.
+Aanvullende Handige Functies
+Hier zijn enkele aanvullende functies die nuttig kunnen zijn voor je project:
+
+Authenticatie en Autorisatie:
+
+Gebruikersrollen: Verschillende rollen zoals admin, planner, werknemer.
+Inlogfunctionaliteit: Zodat alleen geautoriseerde gebruikers toegang hebben tot de planningtool.
+Notificaties en Herinneringen:
+
+E-mail/SMS Notificaties: Voor geplande shifts, wijzigingen in planning, of herinneringen voor werknemers.
+In-app Meldingen: Voor directe communicatie binnen de tool.
+Rapportages en Statistieken:
+
+Urenoverzicht: Per werknemer, per week/maand.
+Overzicht Beschikbaarheid: Wie is beschikbaar op welke dagen/tijden.
+Overzicht Ingeplande Uren: Per categorie, functie, etc.
+Import/Export Functionaliteit:
+
+CSV/Excel Import: Voor het importeren van werknemersgegevens.
+Export: Voor het exporteren van planningen naar PDF of Excel.
+Mobiele Responsiviteit:
+
+Responsive Design: Zodat de tool ook goed werkt op mobiele apparaten.
+Drag-and-Drop Functionaliteit:
+
+Planning: Makkelijk shifts kunnen slepen en neerzetten in de kalender.
+Audit Log:
+
+Wijzigingen Bijhouden: Logboek van wie welke wijzigingen heeft aangebracht in de planning.
+Integraties:
+
+Kalender Integratie: Synchronisatie met Google Calendar of andere kalenderdiensten.
+HR Systemen: Integratie met bestaande HR-systemen voor naadloze gegevensuitwisseling.
