@@ -8,9 +8,6 @@ Maak een virtuele omgeving aan en installeer Flask.
 Initialiseer een basis Flask-applicatie.
 
 
-Tot hier klaar
-
-
 2. Database Setup
 Beschrijving: Stel de database in voor het opslaan van werknemersgegevens en planningen.
 Tools: SQLite (voor een eenvoudige, ingebouwde database), SQLAlchemy (ORM voor Flask).
@@ -18,6 +15,9 @@ Stappen:
 Maak een SQLite-database aan.
 Definieer de databasemodellen voor werknemers, beschikbaarheid, en planningen.
 Stel de database-migraties in met Flask-Migrate.
+
+Tot hier klaar
+
 3. Werknemer Functionaliteiten
 Beschrijving: Implementeer de functionaliteiten voor het toevoegen en beheren van werknemers.
 Tools: Flask-WTF (voor formulieren), Jinja2 (voor templates).

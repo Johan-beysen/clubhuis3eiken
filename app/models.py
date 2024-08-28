@@ -18,3 +18,4 @@ class Schedule(db.Model):
     employee_id = db.Column(db.Integer, db.ForeignKey('employee.id'))
     date = db.Column(db.Date, index=True)
     shift = db.Column(db.String(64))
+
